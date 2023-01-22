@@ -1,8 +1,11 @@
+import RatingCard from "./Components/RatingCard/RatingCard";
+import { GlobalStyle } from "./GlobalStyle";
 
 function App() {
   return (
     <div className="App">
-      <div>this is an Feedback App</div>
+      <GlobalStyle />
+      <RatingCard />
     </div>
   );
 }
