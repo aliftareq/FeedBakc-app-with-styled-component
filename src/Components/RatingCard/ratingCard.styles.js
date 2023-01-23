@@ -40,7 +40,7 @@ export const BUTTON = styled(RatingIconBox)`
     font-weight: bold;
     color: white;
 
-    background-color:${({ selected }) => selected ? 'hsl(25, 97%, 53%)' : 'hsl(210, 16%, 22%)'}
+    background-color:${({ selected }) => selected ? 'hsl(25, 97%, 53%)' : 'hsl(210, 16%, 22%)'};
 
     &:not(:last-child){
         margin: 0.7rem;

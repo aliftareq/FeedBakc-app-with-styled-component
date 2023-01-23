@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 body{
     box-sizing:border-box;
-    background-color: hsl(216, 12%, 8%);
+    background-color: ${({ theme }) => theme.mode === 'dark' ? theme.colors.veryDarkBlue : theme.colors.greyishWhite};
     height: 100vh;
     width : 100%;
     display: grid;
